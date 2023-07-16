@@ -135,6 +135,8 @@ const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 // GSD pages
 const Coaching = lazy(() => import("./components/gsdpages/Coaching"));
+const NewPage = lazy(() => import("./components/gsdpages/NewPage"));
+
 const Cap = lazy(() => import("./components/gsdpages/Cap"));
 const BusinessCoaching = lazy(() => import("./components/gsdpages/BusinessCoaching"));
 const HealthCoaching = lazy(() =>
@@ -261,6 +263,11 @@ const App = (props) => {
                     path={process.env.PUBLIC_URL + "/coaching"}
                     component={Coaching}
                   />
+                  <Route
+                    path={process.env.PUBLIC_URL + "/newpage"}
+                    component={NewPage}
+                  />
+                   
 
                   <Route
                     path={process.env.PUBLIC_URL + "/cap"}
