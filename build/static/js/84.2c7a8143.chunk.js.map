@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/gsdpages/NewPage.js"],"names":["NewPage"],"mappings":"mHAAA,2BAQeA,UANf,WACE,OACE","file":"static/js/84.2c7a8143.chunk.js","sourcesContent":["import React from 'react'\r\n\r\nfunction NewPage() {\r\n  return (\r\n    <div>NewPage</div>\r\n  )\r\n}\r\n\r\nexport default NewPage"],"sourceRoot":""}
